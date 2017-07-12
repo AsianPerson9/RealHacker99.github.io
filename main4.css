@@ -1,0 +1,47 @@
+﻿html, body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 98%;
+  height: 58%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  max-width: 65%;
+  min-width: 500px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.6rem;
+  color: #ffffff;
+}
+
+div {
+  padding-right: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  padding: 250px 0;
+  min-width: 75%;
+background-image:
+url("http://www.homelifelandmark.com/agentphoto.php?aid=1502&picnum=0&mw=225&mh=300&xl=1");
+background-size: cover;
+}
+
+.nav {
+  background-color: #FFEE00;
+  max-width: 25%;
+  min-width: 140px;
+  flex: 1;
+}
+

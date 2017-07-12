@@ -1,0 +1,66 @@
+﻿html, body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 98%;
+  height: 58%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  max-width: 65%;
+  min-width: 500px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.6rem;
+  color: #ffffff;
+}
+
+div {
+  padding-right: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  padding: 250px 0;
+  min-width: 75%;
+background-image:
+url("https://cdn.houseplans.com/product/o2d2ui14afb1sov3cnslpummre/w1024.jpg?v=15");
+background-size: cover;
+}
+
+nav {
+  background-color: #FFF;
+  max-width: 25%;
+  min-width: 140px;
+  flex: 1;
+display: inline;
+}
+nav li {
+  margin-left: 30px;
+  padding: 8px 18px;
+  display: inline;
+border: 1px solid #204156;
+position: relative;
+float: left;
+
+nav li:active {
+top: 2px;
+}
+
+nav ul {
+display: inline
+}
+.logo img {
+max-height: 100px;
+max-width: 75px;
+}

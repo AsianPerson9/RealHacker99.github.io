@@ -1,0 +1,13 @@
+﻿html, body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 98%;
+  height: 58%;
+}
+
+.nav {
+  background-color: #FFEE00;
+  max-width: 25%;
+  min-width: 140px;
+  flex: 1;
+}
